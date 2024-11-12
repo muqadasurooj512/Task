@@ -4,7 +4,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import CustomDrawer from '../customdrawer';
 import CalculationPage from '../../screens/calculationPage/CalculationPage';
 import SumHistoryPage from '../../screens/SumHistoryPage/SumHistoryPage';
-
+import 'react-native-gesture-handler';
 const DrawerNavigation = () => {
   const Drawer = createDrawerNavigator();
 

@@ -1,15 +1,10 @@
-import {  StyleSheet,  View } from 'react-native';
+import {  StyleSheet,  View ,Text} from 'react-native';
 import React from 'react';
-import LottieView from 'lottie-react-native';
 const SplashScreen = () => {
   return (
 
     <View style={styles.Container}>
-      <LottieView
-      source={require("../../components/animation/logo.json")}
-      style={styles.Image}
-      autoPlay
-      loop/>
+      <Text style={{fontSize:24,color:"white",fontWeight:"bold"}}>Calculate App</Text>
     </View>
 
 
